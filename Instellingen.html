@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="nav">
+        <ul>
+            <li onclick="home()" class="home" >Home</li>
+            <li class="instellingen" id="active">Instellingen</li>
+            <li onclick="voortgang()" class="voortgang">Voortgang</li>
+        </ul>
+    </div>
+    <div class="navLine"></div>
+</header>
+
+    <h1 id="title">Instellingen</h1>
+     <form>
+         <div id="formLeft">
+             <label for="firstname">Voornaam:</label><input id="firstname" type="text"/>
+             <br>
+             <label for="surname">Achternaam:</label><input id="surname" type="text"/><br>
+             <label for="stnr">Studentennr:</label><input id="stnr" type="number"/><br>
+             <label for="email">E-Mail:</label><input id="email" type="email"/><br>
+             <label for="date">GeboorteDatum</label><input id="date" type="date"/>
+         </div>
+        <div id="formRight">
+            <label style="width:200px;" for="klas">Klas:</label><select id="klas">
+            <option value="V1A">TICT-ICT-V1A</option>
+            <option value="V1B">TICT-ICT-V1B</option>
+            <option value="V1C">TICT-ICT-V1C</option>
+            <option value="V1D">TICT-ICT-V1D</option>
+            <option value="V1E">TICT-ICT-V1E</option>
+            <option value="V1F">TICT-ICT-V1F</option>
+            <option value="V1G">TICT-ICT-V1G</option>
+            <option value="V1H">TICT-ICT-V1H</option>
+            <option value="V1I">TICT-ICT-V1I</option>
+            <option value="V1J">TICT-ICT-V1J</option>
+            <option value="V1K">TICT-ICT-V1K</option>
+            <option value="V1L">TICT-ICT-V1L</option>
+            <option value="V1M">TICT-ICT-V1M</option>
+            <option value="V1N">TICT-ICT-V1N</option>
+            <option value="V1O">TICT-ICT-V1O</option>
+            <option value="V1P">TICT-ICT-V1P</option>
+            <option value="V1Q">TICT-ICT-V1Q</option>
+            <option value="V1R">TICT-ICT-V1R</option>
+            <option value="V1S">TICT-ICT-V1S</option>
+            <option value="V1T">TICT-ICT-V1T</option>
+            <option value="V1U">TICT-ICT-V1U</option>
+        </select><br>
+            <label style="width:200px;" for="sr1">Gekozen studierichting:</label><input type="radio" checked id="sr1" value="" name="group1"><label style="text-align:left" for="sr1">SIE</label><br>
+            <label style="width:200px;" for="sr2"></label><input id="sr2" type="radio"  value="" name="group1"><label style="text-align:left" for="sr2">SNE</label><br>
+            <label style="width:200px;" for="sr3"></label><input id="sr3" type="radio" value="" name="group1"><label style="text-align:left" for="sr3">TI</label><br>
+            <label style="width:200px;" for="sr4"></label><input id="sr4" type="radio" value="" name="group1"><label style="text-align:left" for="sr4">BIM</label><br>
+            <br>
+            <label style="width:200px;" for="pp1">Propedeuse behaald:</label><input type="radio" id="pp1" checked value="" name="group2"><label style="text-align:left" for="sr1">Ja</label><br>
+            <label style="width:200px;" for="pp1"></label><input id="pp2" type="radio" value="" name="group2"><label style="text-align:left" for="sr2">Nee</label><br>
+        </div>
+     </form>
+
+<footer><p>Deze opdracht is gemaakt in het kader van het vak analyse & user interface</p><br>
+    <p id="footLeft"> auteur:Patrick Kottman</p><p id="footRight">Datum:Februari 2017 </p></footer>
+
+</body>
+</html>

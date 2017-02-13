@@ -1,0 +1,156 @@
+/*
+hu blauw: #00a1e2
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family:HusansNormal,Arial,sans-serif;
+}
+#title{
+    margin-left:10px;
+}
+.nav ul {
+    list-style: none;
+    background-color: white;
+
+    padding: 0;
+    margin: 0;
+    user-select: none;
+
+}
+.nav li,.nav div {
+    font-size: 1em;
+    line-height: 20px;
+    height: 20px;
+    display:inline-block;
+    user-select: none;
+    width:120px;
+    text-align:center;
+    text-decoration: none;
+    color: #000000;
+    transition: .3s background-color,color;
+    border:1px solid dimgrey;
+    border-bottom: 0 solid black;
+    margin-left:-4px;
+    margin-right:0;
+
+}
+.navLine{
+    background-color:#00a1e2;
+    width:100%;
+    height:5px;
+}
+
+.nav li:hover {
+    background-color: #00a1e2;
+    color:white;
+    cursor: default;
+
+}
+
+.nav li#active {
+    background-color: #00a1e2;
+    color: #ffffff;
+    cursor: default;
+}
+
+
+#text{
+    margin-left:10px;
+    float:left;
+}
+
+#hulogo{
+    height:180px;
+    width:180px;
+    margin-left:-70px;
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+
+    height:110px;
+
+    text-align: center;
+    margin-bottom:0;
+    border-top: 2px solid black;
+}
+
+footer p {
+    align-content:center;
+}
+#footLeft{
+    float:left;
+    margin-left:10px;
+}
+#footRight{
+    float: right;
+    margin-right: 10px;
+}
+#fotostud{
+    width:400px;
+    height:250px;
+    position:relative;
+    bottom: -80px;
+    right:600px;
+}
+#formLeft{
+    float:left;
+}
+#formRight{
+    float:left;
+
+}
+
+#formLeft label,#formRight label{
+    width:120px;
+    text-align: right;
+    display:inline-block;
+    margin-right:20px;
+    margin-top:5px;
+}
+#surname,#stnr{
+    margin-right:20px;
+}
+#firstname{
+    margin-right:40px;
+}
+#VoortgangTitle{
+    margin-left:20px;
+    margin-top:40px;
+}
+#VoortgangStudentP{
+    float:right;
+    position:relative;
+    top: -60px;
+    margin-right:1100px;
+    margin-top:20px;
+}
+
+.ect{
+    width:80px;
+}
+
+#grafiek{
+    width:20%;
+    height:5%;
+    position:relative;
+    left:450px;
+    top:-350px;
+
+}
+#submit{
+    position:relative;
+    left:130px;
+    top:-250px;
+    width:300px;
+    height:40px;
+    font-size:20px;
+}
