@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
-    <script src="js.js"></script>
-    <link rel="stylesheet" href="css.css">
+   <link rel="stylesheet" href="css.css">
 </head>
 <body>
 <header>
@@ -94,10 +93,28 @@
 </table>
 
 <img src="https://img.iex.nl/content/2011/columns/bof1.jpg" id="grafiek">
-<button id="submit" >Bereken Studietempo</button>
+<input id="submit" type="button" value="Bereken Studietempo" />
+
+<div class="hidden" id="popup">
+    <h3>StudieTempo</h3>
+    <div class="content">
+        <p>
+            Je hebt tot nu toe <span id="ect"></span> ECTS behaald.
+        </p>
+        <p>
+            Je huidige studietempo is:
+            <span id="ectmonths"></span> ECTS / mnd.
+        </p>
+        <p>
+            Op basis van dit studietempo heb je <span id="months"></span> mnd nodig voor je P.
+        </p>
+        <input id="close" type="button" value="OK" />
+    </div>
+</div>
 
 <footer><p>Deze opdracht is gemaakt in het kader van het vak analyse & user interface</p><br>
     <p id="footLeft"> auteur:Patrick Kottman</p><p id="footRight">Datum:Februari 2017 </p></footer>
 
+    <script src="js.js"></script>
 </body>
 </html>
